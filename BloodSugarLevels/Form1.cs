@@ -6,13 +6,8 @@ namespace BloodSugarLevels
 {
     public partial class Form1 : Form
     {
-        private Patient[] patients = new Patient[3];
-
         public Form1()
         {
-            byte example = 255;
-            Console.WriteLine(example);
-            Console.WriteLine((sbyte) example);
             InitializeComponent();
         }
 
